@@ -1,0 +1,11 @@
+@use 'variaveis';
+
+body {
+  background-color: variaveis.$cor-fundo;
+}
+
+.container {
+  max-width: variaveis.$largura-max-container;
+  width: 100%;
+  margin: 0 auto;
+}
